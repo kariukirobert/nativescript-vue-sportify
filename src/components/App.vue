@@ -6,6 +6,10 @@
 
             <Label text="First Label written Here" fontSize="50" textWrap="true" textAlignment="center" />
         </StackLayout>
+
+        <AbsoluteLayout>
+            <Button text="Button Layout" left="100" top="100"/>
+        </AbsoluteLayout>
     </Page>
 </template>
 
