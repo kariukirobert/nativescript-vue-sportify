@@ -24,6 +24,12 @@
             <Label text="Fourth Child" width="100" height="100" color="white" backgroundColor="green" />
             <Label text="Fifth Child" width="100" height="100" color="white" backgroundColor="black" />
         </FlexboxLayout>
+
+        <GridLayout rows="100, 100, 200" columns="10,*,10" backgroundColor="red" >
+            <Label text="First Child" col="1" row="0" backgroundColor="orange" />
+            <Label text="Second Child" col="1" row="1" backgroundColor="purple" />
+            <Label text="Third Child" col="1" row="2" backgroundColor="green" />
+        </GridLayout>
     </Page>
 </template>
 
