@@ -16,6 +16,14 @@
             <Label text="second label" />
             <Label text="third label" />
         </StackLayout>
+
+        <FlexboxLayout flexDirection="row" flexWrap="wrap" justifyContent="center" backgroundColor="red" height="500">
+            <Label text="First Child" width="100" height="100" color="white" backgroundColor="blue" />
+            <Label text="Second Child" width="100" height="100" color="white" backgroundColor="purple" />
+            <Label text="Third Child" width="100" height="100" color="white" backgroundColor="orange" />
+            <Label text="Fourth Child" width="100" height="100" color="white" backgroundColor="green" />
+            <Label text="Fifth Child" width="100" height="100" color="white" backgroundColor="black" />
+        </FlexboxLayout>
     </Page>
 </template>
 
