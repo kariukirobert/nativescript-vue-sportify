@@ -10,6 +10,12 @@
         <AbsoluteLayout>
             <Button text="Button Layout" left="100" top="100"/>
         </AbsoluteLayout>
+
+        <StackLayout orientation="vertical" backgroundColor="orange" height="200" width="200">
+            <Label text="first label" />
+            <Label text="second label" />
+            <Label text="third label" />
+        </StackLayout>
     </Page>
 </template>
 
