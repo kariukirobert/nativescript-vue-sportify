@@ -30,6 +30,12 @@
             <Label text="Second Child" col="1" row="1" backgroundColor="purple" />
             <Label text="Third Child" col="1" row="2" backgroundColor="green" />
         </GridLayout>
+
+        <FlexboxLayout flexDirection="column" justifyContent="center" alignItems="center" >
+            <TextField hint="Enter username" />
+            <TextField hint="Enter password" secure="true" />
+            <Button text="Login" backgroundColor="blue" />
+        </FlexboxLayout>
     </Page>
 </template>
 
