@@ -1,6 +1,7 @@
 import Vue from 'nativescript-vue'
 import App from './components/App'
 import Todo from './components/Todo'
+import Sportify from './components/Sportify'
 import VueDevtools from 'nativescript-vue-devtools'
 
 if (TNS_ENV !== 'production') {
@@ -14,5 +15,5 @@ Vue.config.silent = (TNS_ENV === 'production')
 
 new Vue({
     store,
-    render: h => h('frame', [h(Todo)])
+    render: h => h('frame', [h(Sportify)])
 }).$start()
